@@ -1,8 +1,12 @@
 package com.assignments.rest.recipes.recipesapi.controllers;
 
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+
 import java.net.URI;
 import java.util.List;
 
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -20,6 +25,7 @@ import com.assignments.rest.recipes.recipesapi.repository.RecipeDaoService;
 import jakarta.validation.Valid;
 
 @RestController
+@RequestMapping(path = "/recipes")
 public class RecipeController {
 
 	
@@ -30,21 +36,31 @@ public class RecipeController {
 		this.service = service;
 	}	
 	
-	@GetMapping(path = "/recipes/{recipeId}")
-	public Recipe retrieveRecipeById(@PathVariable int recipeId){
-		return service.findById(recipeId);
+	@GetMapping(path = "/{recipeId}")
+	public EntityModel<Recipe> retrieveRecipeById(@PathVariable int recipeId){
+		
+		// Get recipe by its if using service
+		Recipe recipe = service.findRecipeById(recipeId);
+		
+		// Prepare entity model to capture link to all recipes so users can easily navigate
+		EntityModel<Recipe> entityModel = EntityModel.of(recipe);
+		
+		WebMvcLinkBuilder link =  linkTo(getClass());
+		entityModel.add(link.withRel("all-recipes"));
+		
+		return entityModel;
 	}
 	
-	@PutMapping(path = "/recipes/{recipeId}")
+	@PutMapping(path = "/{recipeId}")
 	public Recipe updateRecipeById(@PathVariable int recipeId, @Valid @RequestBody Recipe recipeIn){
 		return service.updateRecipeById(recipeId, recipeIn);
 	}
 	
-	@PostMapping(path = "/recipes")
+	@PostMapping
 	public ResponseEntity<Recipe> createRecipe(@Valid @RequestBody Recipe recipe) {
 		
 		// Persist the new recipe
-		Recipe persistedRecipe = service.save(recipe);
+		Recipe persistedRecipe = service.saveRecipe(recipe);
 		
 		URI createdRecipeLocation = ServletUriComponentsBuilder.fromCurrentRequest()
 				.path("/{recipeId}")
@@ -54,16 +70,16 @@ public class RecipeController {
 		return ResponseEntity.created(createdRecipeLocation).build();
 	}
 	
-	@DeleteMapping(path = "/recipes/{recipeId}")
+	@DeleteMapping(path = "/{recipeId}")
 	public void deleteRecipeById(@PathVariable int recipeId){
 		service.deleteById(recipeId);
 	}
 	
-	// Retrieve recipes based on query parameters
-	@GetMapping(path = "/recipes")
-	public List<Recipe> getVegetarianDishRecipes(@RequestParam(name="isVeg",required = false) String isVeg,
-												@RequestParam(name="capacity",required = false) String capacity,
-												@RequestParam(name="creationTime",required = false) String creationTime){
+	// Retrieve recipes based on query parameters(also when no query parameters are passed)
+	@GetMapping
+	public List<Recipe> getFilteredRecipes(@RequestParam(name="isVeg",required = false) String isVeg,
+											@RequestParam(name="capacity",required = false) String capacity,
+											@RequestParam(name="creationTime",required = false) String creationTime){
 		
 		return service.getFilteredRecipes(isVeg, capacity, creationTime);
 	}

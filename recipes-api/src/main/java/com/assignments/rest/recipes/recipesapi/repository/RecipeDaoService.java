@@ -25,7 +25,7 @@ public class RecipeDaoService {
 	}
 	
 	
-	public Recipe findById(int recipeId) {
+	public Recipe findRecipeById(int recipeId) {
 		Optional<Recipe> recipe = repository.findById(recipeId);
 		
 		// throw custom exception if recipe with given id could not be found
@@ -35,7 +35,6 @@ public class RecipeDaoService {
 			logger.error(message);
 			throw new RecipeNotFoundException(message);
 		}
-		
 		return recipe.get();
 	}
 	
@@ -71,9 +70,11 @@ public class RecipeDaoService {
 		logger.debug("Deleted recipe with recipeId: "+recipeId);
 	}
 	
-	public Recipe save(Recipe recipe) {
-		logger.debug("Added recipe with recipeId: "+recipe.getRecipeId());
-		return repository.save(recipe);
+	public Recipe saveRecipe(Recipe recipe) {
+		Recipe savedRecipe = repository.save(recipe);
+		
+		logger.debug("Added recipe with recipeId: "+savedRecipe.getRecipeId());
+		return recipe;
 	}
 	
 	public List<Recipe> getFilteredRecipes(String isVeg, String capacity, String creationTime) {
@@ -88,7 +89,8 @@ public class RecipeDaoService {
 		if(capacity != null) {
 			Predicate<? super Recipe> predicate = recipe -> recipe.getCapacity().toString().equals(capacity);
 			filteredRecipes = filteredRecipes.stream().filter(predicate).toList();
-		}if(creationTime != null) {
+		}
+		if(creationTime != null) {
 			Predicate<? super Recipe> predicate = recipe -> recipe.getFormattedCreationDateTime().toString().equals(creationTime);
 			filteredRecipes = filteredRecipes.stream().filter(predicate).toList();
 		}

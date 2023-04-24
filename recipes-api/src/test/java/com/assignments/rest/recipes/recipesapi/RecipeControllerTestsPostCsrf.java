@@ -26,7 +26,7 @@ import com.assignments.rest.recipes.recipesapi.repository.RecipeDaoService;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(RecipeController.class)
-public class RestControllerTestsPostCsrf {
+public class RecipeControllerTestsPostCsrf {
     @Autowired
     private MockMvc mockMvc;
     

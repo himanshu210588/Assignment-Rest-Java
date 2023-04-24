@@ -1,5 +1,6 @@
 package com.assignments.rest.recipes.recipesapi;
 
+
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.anyInt;
@@ -61,7 +62,7 @@ public class RecipeServiceTests {
     
     //test get of all recipes with query param isVeg(true/false). All veg/non-veg recipes must be returned
     @Test
-    public void testRecipes_ByIsVeg() {
+    public void testGetRecipes_ByIsVeg() {
        
     	//Prepare two recipe objects
     	Recipe recipe1 = new Recipe(1001,"Pizza","Monu", true, 4, Arrays.asList("onion","tomato"));
@@ -83,7 +84,7 @@ public class RecipeServiceTests {
     
     //test get of all recipes with query param ingredients(list of strings). All recipes with specified ingredients must be returned
     @Test
-    public void testRecipes_ByIngredientsList() {
+    public void testGetRecipes_ByIngredientsList() {
        
     	//Prepare two recipe objects
     	Recipe recipe1 = new Recipe(1001,"Pizza","Monu", true, 4, Arrays.asList("onion","tomato"));
@@ -105,7 +106,7 @@ public class RecipeServiceTests {
     
     //test get of all recipes with query params isVeg(true/false) and ingredients. All veg/non-veg recipes with specified ingredients must be returned
     @Test
-    public void testRecipes_combinations_ByIsVegAndIngredientsList() {
+    public void testGetRecipes_combinations_ByIsVegAndIngredientsList() {
        
     	//Prepare two recipe objects
     	Recipe recipe1 = new Recipe(1001,"Pizza","Monu", true, 4, Arrays.asList("onion","tomato"));

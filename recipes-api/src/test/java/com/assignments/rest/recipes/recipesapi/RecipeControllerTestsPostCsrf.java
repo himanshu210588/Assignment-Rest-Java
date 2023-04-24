@@ -36,14 +36,6 @@ public class RecipeControllerTestsPostCsrf {
     private static final String username = "admin";
     private static final String password = "admin";
     private static HttpHeaders headers;
-    /*
-    @Before
-    public void setUp() throws Exception {
-        mockMvc = MockMvcBuilders
-                .webAppContextSetup(webApplicationContext)
-                .apply(springSecurity())
-                .build();
-    }*/
     
     //this method is executed only once for all tests in this class and hence is made static
     @BeforeAll

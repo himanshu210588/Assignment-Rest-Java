@@ -1276,3 +1276,74 @@
 23:25:36.272 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
 23:25:36.273 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
 23:25:36.278 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+23:28:03.916 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 23438 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:28:03.916 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:28:03.916 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+23:28:04.815 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.936 seconds (process running for 14486.424)
+23:28:49.824 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 23438 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:28:49.824 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:28:49.824 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+23:28:50.482 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.67 seconds (process running for 14532.091)
+00:45:14.510 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Starting RecipesApiApplicationTests using Java 17.0.6 with PID 35075 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:45:14.512 [main] DEBUG c.a.r.r.r.RecipesApiApplicationTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:45:14.513 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:45:18.850 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Started RecipesApiApplicationTests in 4.574 seconds (process running for 5.679)
+01:08:54.485 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 35365 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:08:54.488 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:08:54.489 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:08:59.216 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.074 seconds (process running for 5.84)
+01:09:12.828 [main] INFO  c.a.r.r.r.RecipeServiceTests - Starting RecipeServiceTests using Java 17.0.6 with PID 35371 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:09:12.830 [main] DEBUG c.a.r.r.r.RecipeServiceTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:09:12.831 [main] INFO  c.a.r.r.r.RecipeServiceTests - No active profile set, falling back to 1 default profile: "default"
+01:09:17.139 [main] INFO  c.a.r.r.r.RecipeServiceTests - Started RecipeServiceTests in 4.514 seconds (process running for 5.733)
+01:09:17.404 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Not Found - Recipe Id : 1001
+01:09:17.417 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:09:17.418 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:09:17.424 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:09:17.429 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:09:17.429 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:09:17.433 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Deleted recipe with recipeId: 1001
+01:09:17.443 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:09:17.443 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:09:17.448 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1001
+01:09:17.452 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:09:17.452 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:09:17.457 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:10:19.068 [main] INFO  c.a.r.r.r.RecipeServiceTests - Starting RecipeServiceTests using Java 17.0.6 with PID 35380 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:10:19.070 [main] DEBUG c.a.r.r.r.RecipeServiceTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:10:19.071 [main] INFO  c.a.r.r.r.RecipeServiceTests - No active profile set, falling back to 1 default profile: "default"
+01:10:23.157 [main] INFO  c.a.r.r.r.RecipeServiceTests - Started RecipeServiceTests in 4.306 seconds (process running for 5.574)
+01:10:23.413 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Not Found - Recipe Id : 1001
+01:10:23.426 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:10:23.427 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:10:23.435 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:10:23.440 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:10:23.440 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:10:23.446 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Deleted recipe with recipeId: 1001
+01:10:23.457 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:10:23.457 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:10:23.461 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1001
+01:10:23.466 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:10:23.466 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:10:23.471 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:11:24.735 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 35365 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:11:24.736 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:11:24.736 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:11:25.838 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.126 seconds (process running for 152.459)
+01:11:34.950 [main] INFO  c.a.r.r.r.RecipeServiceTests - Starting RecipeServiceTests using Java 17.0.6 with PID 35401 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:11:34.951 [main] DEBUG c.a.r.r.r.RecipeServiceTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:11:34.952 [main] INFO  c.a.r.r.r.RecipeServiceTests - No active profile set, falling back to 1 default profile: "default"
+01:11:39.158 [main] INFO  c.a.r.r.r.RecipeServiceTests - Started RecipeServiceTests in 4.426 seconds (process running for 5.636)
+01:11:39.435 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Not Found - Recipe Id : 1001
+01:11:39.448 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:11:39.449 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:11:39.460 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:11:39.464 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:11:39.464 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:11:39.470 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Deleted recipe with recipeId: 1001
+01:11:39.481 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:11:39.481 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:11:39.486 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1001
+01:11:39.493 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:11:39.493 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:11:39.500 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001

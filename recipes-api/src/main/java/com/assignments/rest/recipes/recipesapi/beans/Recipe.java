@@ -145,6 +145,7 @@ public class Recipe {
 		if(obj == null || this.getClass() != obj.getClass())
 			return false;
 		
+		//custom definition when two recipe objects are said to be equal
 		if(currentRecipe.getRecipeId().toString().equals(paramRecipe.getRecipeId().toString())
 				&& currentRecipe.getRecipeName().equals(paramRecipe.getRecipeName())
 				&& currentRecipe.getRecipeOwner().equals(paramRecipe.getRecipeOwner())
@@ -156,7 +157,6 @@ public class Recipe {
 			areEqual = true;
 		}
 		
-		System.out.println("Result : "+areEqual);
 		return areEqual;
 	}
 }

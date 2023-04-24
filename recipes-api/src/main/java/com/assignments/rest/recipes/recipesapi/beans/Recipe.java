@@ -128,6 +128,59 @@ public class Recipe {
 				+ ", isVegetarian=" + isVegetarian + ", formattedCreationDateTime=" + formattedCreationDateTime + ", capacity="
 				+ capacity + "]";
 	}
-	
-	
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		
+		Recipe recipe1 = (Recipe)this;
+		Recipe recipe2 = (Recipe)obj;
+		
+		boolean areEqual = false;
+		
+		if(this == obj)
+			return true;
+		
+		if(obj == null || this.getClass() != obj.getClass())
+			return false;
+		
+		/*if(recipe1.getRecipeId() == recipe2.getRecipeId() 
+				&& recipe1.getRecipeName().equals(recipe2.getRecipeOwner())
+				&& recipe1.getRecipeOwner().equals(recipe2.getRecipeOwner())
+				&& recipe1.getCapacity() == recipe2.getCapacity()
+				&& recipe1.getIsVegetarian() == recipe2.getIsVegetarian()
+				&& recipe1.getIngredients().containsAll(recipe2.getIngredients())) {
+			
+			areEqual = true;
+		}*/
+		
+		System.out.println("Recipe 1 name : "+recipe1.getRecipeId());
+		System.out.println("Recipe 2 name : "+recipe2.getRecipeId());
+		
+		if(recipe1.getRecipeId().toString().equals(recipe2.getRecipeId().toString()))
+			System.out.println("Ids equal");
+		
+		if(recipe1.getIsVegetarian() == recipe2.getIsVegetarian())
+			System.out.println("isVeg equal");
+		
+		if(recipe1.getFormattedCreationDateTime().equals(recipe2.getFormattedCreationDateTime()))
+			System.out.println("date equal");
+		
+		if(recipe1.getIngredients().containsAll(recipe2.getIngredients()))
+			System.out.println("ingredients list equal");
+		
+		if(recipe1.getRecipeId().toString().equals(recipe2.getRecipeId().toString())
+				&& recipe1.getRecipeName().equals(recipe2.getRecipeName())
+				&& recipe1.getRecipeOwner().equals(recipe2.getRecipeOwner())
+				&& recipe1.getCapacity() == recipe2.getCapacity()
+				&& recipe1.getIsVegetarian() == recipe2.getIsVegetarian()
+				&& recipe1.getFormattedCreationDateTime().equals(recipe2.getFormattedCreationDateTime())
+				&& recipe1.getIngredients().containsAll(recipe2.getIngredients())) {
+			
+			areEqual = true;
+		}
+		
+		System.out.println("Result : "+areEqual);
+		return areEqual;
+	}
 }

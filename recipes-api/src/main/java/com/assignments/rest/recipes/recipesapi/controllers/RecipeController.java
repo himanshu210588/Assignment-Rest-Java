@@ -53,12 +53,17 @@ public class RecipeController {
 	}
 	
 	@PutMapping(path = "/{recipeId}")
-	public Recipe updateRecipeById(@PathVariable int recipeId, @Valid @RequestBody Recipe recipeIn){
-		return service.updateRecipeById(recipeId, recipeIn);
+	public ResponseEntity<Recipe> updateRecipeById(@PathVariable int recipeId, @Valid @RequestBody Recipe recipeIn){
+		
+		//if the recipe id from path parameter does not match the one in the body(if at all it exists), then it is a bad request
+		if(recipeIn.getRecipeId()!= null && recipeId != recipeIn.getRecipeId())
+			return ResponseEntity.badRequest().build();
+		
+		//return a response entity object with status as ok and body as update recipes's data
+		return ResponseEntity.ok(service.updateRecipeById(recipeId, recipeIn));
 	}
 	
 	@PostMapping
-	@CrossOrigin
 	public ResponseEntity<Recipe> createRecipe(@Valid @RequestBody Recipe recipe) {
 		
 		// Persist the new recipe

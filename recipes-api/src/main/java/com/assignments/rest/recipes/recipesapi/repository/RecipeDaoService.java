@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.assignments.rest.recipes.recipesapi.beans.Recipe;
@@ -57,6 +58,7 @@ public class RecipeDaoService {
 		recipeExisting.setRecipeOwner(recipeIn.getRecipeOwner() != null ? recipeIn.getRecipeOwner() : recipeExisting.getRecipeOwner());
 		recipeExisting.setIsVegetarian(recipeIn.getIsVegetarian() != null ? recipeIn.getIsVegetarian() : recipeExisting.getIsVegetarian());
 		recipeExisting.setCapacity(recipeIn.getCapacity() != null ? recipeIn.getCapacity() : recipeExisting.getCapacity());
+		recipeExisting.setIngredients(recipeIn.getIngredients() != null ? recipeIn.getIngredients() : recipeExisting.getIngredients());
 		
 		repository.save(recipeExisting);
 		

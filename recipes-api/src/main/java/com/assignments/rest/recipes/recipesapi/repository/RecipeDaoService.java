@@ -2,7 +2,7 @@ package com.assignments.rest.recipes.recipesapi.repository;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -77,23 +77,20 @@ public class RecipeDaoService {
 		return recipe;
 	}
 	
-	public List<Recipe> getFilteredRecipes(String isVeg, String capacity, String creationTime) {
-		List<Recipe> filteredRecipes = repository.findAll();
+	// This method fetches all available recipes(in case no query parameter was passed in query string), otherwise filters recipes based on the parameters
+	public List<Recipe> getFilteredRecipes(String isVeg, String capacity, String creationTime, List<String> ingredients) {
+		List<Recipe> recipes = repository.findAll();
+		List<Recipe> filteredRecipes;
 		
 		logger.debug("Received request for recipes");
 		
-		if(isVeg != null) {
-			Boolean isVegetarian = Boolean.parseBoolean(isVeg);
-			filteredRecipes = repository.findByIsVegetarian(isVegetarian);
-		}
-		if(capacity != null) {
-			Predicate<? super Recipe> predicate = recipe -> recipe.getCapacity().toString().equals(capacity);
-			filteredRecipes = filteredRecipes.stream().filter(predicate).toList();
-		}
-		if(creationTime != null) {
-			Predicate<? super Recipe> predicate = recipe -> recipe.getFormattedCreationDateTime().toString().equals(creationTime);
-			filteredRecipes = filteredRecipes.stream().filter(predicate).toList();
-		}
+		// if a parameter is not present in the query string, it will be null
+		filteredRecipes = recipes.stream()
+						  .filter(recipe -> isVeg == null || recipe.getIsVegetarian().toString().equals(isVeg))
+						  .filter(recipe -> capacity == null || recipe.getCapacity().toString().equals(capacity))
+						  .filter(recipe -> creationTime == null || recipe.getFormattedCreationDateTime().toString().equals(creationTime))
+						  .filter(recipe -> ingredients == null || recipe.getIngredients().containsAll(ingredients))
+						  .collect(Collectors.toList());
 		
 		logger.debug("Retrieved and sent the recipes with requested filters");
 		

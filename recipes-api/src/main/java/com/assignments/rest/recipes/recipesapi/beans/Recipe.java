@@ -2,6 +2,7 @@ package com.assignments.rest.recipes.recipesapi.beans;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -35,21 +36,21 @@ public class Recipe {
 	@Max(10)
 	private Integer capacity;
 	
-	//private List<String> ingredients;
-	//private String cookingInstructions;
+	private List<String> ingredients;
 	
-	protected Recipe() {
+	public Recipe() {
 		setFormattedCreationDateTime();
 	}
 	
 	public Recipe(Integer recipeId, String recipeName, String recipeOwner, Boolean isVegetarian,
-			Integer capacity) {
+			Integer capacity, List<String> ingredients) {
 		super();
 		this.recipeId = recipeId;
 		this.recipeName = recipeName;
 		this.recipeOwner = recipeOwner;
 		this.isVegetarian = isVegetarian;
 		this.capacity = capacity;
+		this.ingredients = ingredients;
 		
 		setFormattedCreationDateTime();
 		
@@ -109,6 +110,16 @@ public class Recipe {
 
 	public void setCapacity(Integer capacity) {
 		this.capacity = capacity;
+	}
+
+	
+	
+	public List<String> getIngredients() {
+		return ingredients;
+	}
+
+	public void setIngredients(List<String> ingredients) {
+		this.ingredients = ingredients;
 	}
 
 	@Override

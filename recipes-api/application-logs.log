@@ -386,3 +386,432 @@
 00:13:17.538 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
 00:13:17.539 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
 00:13:18.574 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.064 seconds (process running for 534.131)
+00:42:43.991 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 9805 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:42:43.992 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:42:43.993 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:42:48.587 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.934 seconds (process running for 5.63)
+00:43:40.102 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:43:40.103 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:45:40.491 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:46:10.601 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:46:10.601 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:46:30.623 [http-nio-8080-exec-6] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception Access Denied
+00:48:24.740 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 9805 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:48:24.740 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:48:24.740 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:48:25.781 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.066 seconds (process running for 342.82)
+00:50:56.671 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:50:56.672 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:52:30.519 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:52:30.521 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:52:44.099 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:52:50.454 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:52:50.455 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:53:03.624 [http-nio-8080-exec-8] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception ROLE_ADMIN should not start with ROLE_ since ROLE_ is automatically prepended when using hasAnyRole. Consider using hasAnyAuthority instead.
+00:56:38.204 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 9805 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:56:38.206 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:56:38.207 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:56:39.280 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.101 seconds (process running for 836.29)
+00:58:41.936 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:59:13.951 [http-nio-8080-exec-3] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception Access Denied
+01:04:30.459 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 9805 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:04:30.460 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:04:30.460 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:04:31.279 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.841 seconds (process running for 1308.271)
+01:08:29.856 [http-nio-8080-exec-3] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception Access Denied
+01:12:37.154 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10229 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:12:37.156 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:12:37.156 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:12:41.639 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.803 seconds (process running for 5.43)
+01:13:59.838 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:13:59.839 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:19:48.474 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10229 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:19:48.475 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:19:48.475 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:19:49.554 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.107 seconds (process running for 433.339)
+01:22:26.329 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10229 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:22:26.332 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:22:26.332 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:22:27.111 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.801 seconds (process running for 590.893)
+01:23:02.030 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10229 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:23:02.031 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:23:02.031 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:23:02.747 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.735 seconds (process running for 626.528)
+01:24:42.754 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10354 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:24:42.756 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:24:42.757 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:24:47.846 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.418 seconds (process running for 6.0)
+01:26:40.361 [http-nio-8080-exec-4] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception Access Denied
+01:28:43.014 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10424 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:28:43.016 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:28:43.017 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:28:47.985 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.271 seconds (process running for 5.884)
+01:30:47.246 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:30:47.247 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+01:31:42.895 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10424 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:31:42.896 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:31:42.896 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:31:43.853 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.981 seconds (process running for 181.75)
+01:40:28.395 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10424 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:40:28.395 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:40:28.396 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:40:29.358 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.991 seconds (process running for 707.249)
+01:40:44.127 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 10581 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:40:44.128 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:40:44.129 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:40:48.545 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.723 seconds (process running for 5.313)
+01:42:41.826 [http-nio-8080-exec-2] ERROR c.a.r.r.r.r.RecipeDaoService - Generic exception Access Denied
+01:43:02.587 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+01:43:02.587 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:22:54.017 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11555 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:22:54.019 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:22:54.020 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:22:58.545 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.973 seconds (process running for 6.345)
+10:24:37.907 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:24:37.910 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:25:37.564 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+10:25:43.717 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:25:43.717 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:26:06.604 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:26:06.606 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:26:46.370 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 2
+10:29:15.358 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:29:15.360 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:29:28.501 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:29:28.501 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:29:36.925 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:29:36.925 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:29:53.670 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:29:53.670 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:30:16.152 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:30:16.152 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:30:33.966 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:30:33.967 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:30:51.696 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:30:51.696 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:31:08.960 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:31:08.961 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:31:45.820 [http-nio-8080-exec-9] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 3
+10:32:04.299 [http-nio-8080-exec-10] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 4
+10:32:12.113 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:32:12.113 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:32:48.962 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:32:48.962 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:33:02.425 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:33:02.425 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:33:12.676 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:33:12.676 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:33:45.073 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 5
+10:33:46.037 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 6
+10:33:55.588 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:33:55.588 [http-nio-8080-exec-7] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:34:52.393 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:34:52.393 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:35:54.626 [http-nio-8080-exec-10] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 5
+10:36:07.542 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:36:07.542 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:37:05.172 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:37:05.173 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:37:13.967 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:37:13.967 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:37:57.913 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11555 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:37:57.913 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:37:57.913 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:37:58.865 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.979 seconds (process running for 906.601)
+10:43:58.244 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11801 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:43:58.247 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:43:58.247 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:44:03.350 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.44 seconds (process running for 6.184)
+10:48:42.365 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11801 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:48:42.366 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:48:42.367 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:48:43.808 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.482 seconds (process running for 286.64)
+10:48:51.508 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11801 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:48:51.508 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:48:51.509 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:49:17.025 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11801 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:49:17.025 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:49:17.025 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:49:17.728 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.724 seconds (process running for 320.561)
+10:49:42.170 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 11892 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:49:42.172 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:49:42.173 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+10:49:47.234 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.383 seconds (process running for 6.219)
+10:51:44.692 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:51:44.694 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:53:26.247 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:53:26.249 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:53:57.395 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+10:54:03.826 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+10:54:03.826 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+10:59:57.779 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 12035 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+10:59:57.781 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+10:59:57.782 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+11:00:03.494 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 6.104 seconds (process running for 6.834)
+11:00:55.045 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:00:55.046 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:01:10.758 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:01:10.759 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:01:19.740 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:01:19.741 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:01:30.733 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:01:30.734 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:01:51.497 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:01:51.498 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:02:20.358 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 12035 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+11:02:20.359 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+11:02:20.360 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+11:02:21.297 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.965 seconds (process running for 144.613)
+11:02:45.634 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:02:45.643 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:03:00.137 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:03:00.137 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:03:14.030 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:03:14.031 [http-nio-8080-exec-3] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:03:21.828 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:03:21.828 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:03:33.985 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:03:33.986 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:03:41.476 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+11:03:41.476 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+11:33:26.591 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Starting RecipesApiApplicationTests using Java 17.0.6 with PID 12418 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+11:33:26.593 [main] DEBUG c.a.r.r.r.RecipesApiApplicationTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+11:33:26.594 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+11:33:31.607 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Started RecipesApiApplicationTests in 5.278 seconds (process running for 6.748)
+14:03:06.586 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 13755 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:03:06.588 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:03:06.589 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:03:08.275 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.975 seconds (process running for 3.349)
+14:32:04.489 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14201 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:32:04.491 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:32:04.492 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:32:06.129 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.975 seconds (process running for 3.303)
+14:41:10.200 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14281 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:41:10.202 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:41:10.203 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:41:11.862 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.976 seconds (process running for 3.197)
+14:42:18.206 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 14289 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:42:18.209 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:42:18.210 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+14:42:23.021 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.126 seconds (process running for 5.891)
+14:42:55.705 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+14:42:55.706 [http-nio-8080-exec-1] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+14:44:36.920 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+14:44:36.921 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+14:47:25.026 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14426 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:47:25.028 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:47:25.029 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:47:26.642 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.916 seconds (process running for 3.073)
+14:48:42.533 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14442 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:48:42.535 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:48:42.536 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:48:44.116 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.854 seconds (process running for 2.984)
+14:51:49.528 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 14289 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:51:49.529 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:51:49.529 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+14:51:50.737 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.24 seconds (process running for 573.601)
+14:52:10.891 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14498 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:52:10.893 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:52:10.894 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:52:12.476 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.925 seconds (process running for 3.14)
+14:54:19.090 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14521 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:54:19.093 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:54:19.094 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:54:20.801 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.004 seconds (process running for 3.228)
+14:57:37.225 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14563 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+14:57:37.227 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+14:57:37.228 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+14:57:38.893 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 1.959 seconds (process running for 3.178)
+15:00:21.626 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 14586 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+15:00:21.628 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+15:00:21.629 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+15:00:26.686 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.387 seconds (process running for 6.242)
+15:04:41.818 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 14654 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+15:04:41.820 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+15:04:41.820 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+15:04:43.733 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.257 seconds (process running for 3.87)
+22:56:35.074 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 16056 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+22:56:35.076 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+22:56:35.076 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+22:56:36.287 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.348 seconds (process running for 5673.246)
+22:57:03.905 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 17813 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+22:57:03.907 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+22:57:03.908 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+22:57:05.653 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.025 seconds (process running for 3.367)
+22:59:03.036 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 17833 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+22:59:03.037 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+22:59:03.038 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+22:59:07.818 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 5.096 seconds (process running for 5.739)
+22:59:17.659 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 17836 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+22:59:17.661 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+22:59:17.662 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+22:59:19.433 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.075 seconds (process running for 3.229)
+23:00:11.476 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 17853 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:00:11.478 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:00:11.479 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+23:00:13.246 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.054 seconds (process running for 3.27)
+23:02:03.819 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 17878 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:02:03.821 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:02:03.822 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+23:02:05.583 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.066 seconds (process running for 3.206)
+23:02:57.035 [main] INFO  c.a.r.r.r.RecipeControllerTests - Starting RecipeControllerTests using Java 17.0.6 with PID 17889 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:02:57.036 [main] DEBUG c.a.r.r.r.RecipeControllerTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:02:57.037 [main] INFO  c.a.r.r.r.RecipeControllerTests - No active profile set, falling back to 1 default profile: "default"
+23:02:58.764 [main] INFO  c.a.r.r.r.RecipeControllerTests - Started RecipeControllerTests in 2.01 seconds (process running for 3.172)
+23:21:06.340 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+23:22:19.320 [http-nio-8080-exec-5] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 2
+23:25:34.211 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 18095 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+23:25:34.213 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+23:25:34.214 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+23:25:38.686 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.783 seconds (process running for 5.42)
+23:26:21.052 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:06:22.276 [main] INFO  c.a.r.r.r.RestControllerTestsGet - Starting RestControllerTestsGet using Java 17.0.6 with PID 18457 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:06:22.278 [main] DEBUG c.a.r.r.r.RestControllerTestsGet - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:06:22.279 [main] INFO  c.a.r.r.r.RestControllerTestsGet - No active profile set, falling back to 1 default profile: "default"
+00:06:23.874 [main] INFO  c.a.r.r.r.RestControllerTestsGet - Started RestControllerTestsGet in 1.888 seconds (process running for 3.035)
+00:27:27.514 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 18630 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:27:27.516 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:27:27.517 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+00:27:29.057 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.799 seconds (process running for 3.154)
+00:28:09.685 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 18641 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:28:09.687 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:28:09.688 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:29:00.530 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 18648 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:29:00.532 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:29:00.533 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+00:29:01.956 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.661 seconds (process running for 2.923)
+00:29:32.570 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 18653 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:29:32.571 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:29:32.572 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:29:36.788 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.491 seconds (process running for 5.075)
+00:29:47.206 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 18655 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:29:47.207 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:29:47.208 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+00:29:48.718 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.785 seconds (process running for 3.113)
+00:32:41.599 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 18702 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:32:41.601 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:32:41.602 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+00:32:43.077 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.715 seconds (process running for 3.024)
+00:40:09.592 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Starting RestControllerTestsPostWithJWT using Java 17.0.6 with PID 18767 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:40:09.595 [main] DEBUG c.a.r.r.r.RestControllerTestsPostWithJWT - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:40:09.595 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - No active profile set, falling back to 1 default profile: "default"
+00:40:11.082 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Started RestControllerTestsPostWithJWT in 1.739 seconds (process running for 3.037)
+00:40:11.613 [http-nio-8080-exec-6] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:41:31.643 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
+00:41:31.644 [http-nio-8080-exec-8] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
+00:47:20.530 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 18653 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:47:20.531 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:47:20.531 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:47:21.572 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.073 seconds (process running for 1069.786)
+00:56:29.453 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Starting RestControllerTestsPostWithJWT using Java 17.0.6 with PID 19019 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:56:29.454 [main] DEBUG c.a.r.r.r.RestControllerTestsPostWithJWT - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:56:29.455 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - No active profile set, falling back to 1 default profile: "default"
+00:56:31.094 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Started RestControllerTestsPostWithJWT in 1.919 seconds (process running for 3.539)
+00:56:50.421 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 19023 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:56:50.422 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:56:50.423 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+00:56:55.015 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.861 seconds (process running for 5.462)
+00:57:04.253 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Starting RestControllerTestsPostWithJWT using Java 17.0.6 with PID 19026 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:57:04.255 [main] DEBUG c.a.r.r.r.RestControllerTestsPostWithJWT - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:57:04.255 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - No active profile set, falling back to 1 default profile: "default"
+00:57:05.823 [main] INFO  c.a.r.r.r.RestControllerTestsPostWithJWT - Started RestControllerTestsPostWithJWT in 1.801 seconds (process running for 3.242)
+00:57:06.441 [http-nio-8080-exec-2] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+00:59:05.254 [main] INFO  c.a.r.r.r.RestControllerTestsGet - Starting RestControllerTestsGet using Java 17.0.6 with PID 19045 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+00:59:05.256 [main] DEBUG c.a.r.r.r.RestControllerTestsGet - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+00:59:05.256 [main] INFO  c.a.r.r.r.RestControllerTestsGet - No active profile set, falling back to 1 default profile: "default"
+00:59:06.832 [main] INFO  c.a.r.r.r.RestControllerTestsGet - Started RestControllerTestsGet in 1.836 seconds (process running for 2.94)
+01:46:41.277 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 19409 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:46:41.278 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:46:41.278 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:46:42.364 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.223 seconds (process running for 691.962)
+01:46:46.052 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 19409 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:46:46.052 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:46:46.052 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:46:46.880 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.847 seconds (process running for 696.478)
+01:47:25.296 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19595 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:47:25.298 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:47:25.298 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+01:47:26.836 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.797 seconds (process running for 3.335)
+01:49:06.893 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 19613 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:49:06.895 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:49:06.896 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:49:11.119 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.495 seconds (process running for 5.066)
+01:49:19.757 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19616 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:49:19.759 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:49:19.760 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+01:49:21.292 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.773 seconds (process running for 3.122)
+01:53:48.640 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 19613 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:53:48.640 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:53:48.640 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:53:49.911 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.302 seconds (process running for 283.856)
+01:54:12.951 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19656 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:54:12.952 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:54:12.953 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+01:54:14.488 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.778 seconds (process running for 3.102)
+02:15:27.485 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19850 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:15:27.487 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:15:27.488 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:15:29.019 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.782 seconds (process running for 3.152)
+02:17:40.300 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19869 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:17:40.302 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:17:40.302 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:17:41.820 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.771 seconds (process running for 3.121)
+02:22:06.573 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19901 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:22:06.575 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:22:06.576 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:22:08.073 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.741 seconds (process running for 3.006)
+02:25:29.340 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19944 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:25:29.342 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:25:29.343 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:25:30.855 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.755 seconds (process running for 3.178)
+02:26:31.908 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 19953 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:26:31.909 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:26:31.910 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:26:33.416 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.753 seconds (process running for 3.07)
+02:27:42.747 [http-nio-8080-exec-4] DEBUG c.a.r.r.r.r.RecipeDaoService - Added recipe with recipeId: 1
+02:34:00.310 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Starting RestControllerTestsPost using Java 17.0.6 with PID 20029 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:34:00.313 [main] DEBUG c.a.r.r.r.RestControllerTestsPost - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:34:00.314 [main] INFO  c.a.r.r.r.RestControllerTestsPost - No active profile set, falling back to 1 default profile: "default"
+02:34:01.962 [main] INFO  c.a.r.r.r.RestControllerTestsPost - Started RestControllerTestsPost in 1.94 seconds (process running for 3.437)
+02:38:51.090 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20076 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:38:51.092 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:38:51.093 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:38:52.762 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.953 seconds (process running for 3.489)
+02:38:53.161 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:Name should be max 20 characters long
+02:41:13.976 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20096 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:41:13.978 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:41:13.978 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:41:15.654 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.948 seconds (process running for 3.514)
+02:41:16.160 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:Name should be max 20 characters long
+02:45:57.601 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20137 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:45:57.603 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:45:57.603 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:45:59.278 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.957 seconds (process running for 3.497)
+02:45:59.770 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:recipeOwner name should be max 20 characters long
+02:45:59.865 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:Name should be max 20 characters long
+02:50:10.690 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20171 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:50:10.692 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:50:10.692 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:50:12.370 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.963 seconds (process running for 3.357)
+02:52:51.325 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20194 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:52:51.327 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:52:51.328 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:52:52.982 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.936 seconds (process running for 3.41)
+02:53:19.974 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20199 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+02:53:19.976 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+02:53:19.976 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+02:53:21.662 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.955 seconds (process running for 3.2)
+03:00:22.083 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 20264 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+03:00:22.085 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+03:00:22.086 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+03:00:26.645 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 4.897 seconds (process running for 5.569)
+03:03:46.873 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Starting RestControllerTestsPostCsrf using Java 17.0.6 with PID 20302 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+03:03:46.875 [main] DEBUG c.a.r.r.r.RestControllerTestsPostCsrf - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+03:03:46.875 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - No active profile set, falling back to 1 default profile: "default"
+03:03:48.444 [main] INFO  c.a.r.r.r.RestControllerTestsPostCsrf - Started RestControllerTestsPostCsrf in 1.829 seconds (process running for 3.268)
+03:03:48.932 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:recipeOwner name should be max 20 characters long
+03:03:49.023 [main] ERROR c.a.r.r.r.r.RecipeDaoService - Total Validation Errors:1 First Error:Name should be max 20 characters long
+03:08:04.443 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 20264 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+03:08:04.444 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+03:08:04.444 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+03:08:05.657 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 1.251 seconds (process running for 464.576)

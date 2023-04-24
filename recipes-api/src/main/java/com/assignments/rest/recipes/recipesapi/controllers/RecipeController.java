@@ -8,6 +8,7 @@ import java.util.List;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -57,6 +58,7 @@ public class RecipeController {
 	}
 	
 	@PostMapping
+	@CrossOrigin
 	public ResponseEntity<Recipe> createRecipe(@Valid @RequestBody Recipe recipe) {
 		
 		// Persist the new recipe
@@ -77,11 +79,13 @@ public class RecipeController {
 	
 	// Retrieve recipes based on query parameters(also when no query parameters are passed)
 	@GetMapping
+	//@PreAuthorize("hasAnyAuthority('ROLE_USER','SCOPE_ROLE_USER')")
 	public List<Recipe> getFilteredRecipes(@RequestParam(name="isVeg",required = false) String isVeg,
 											@RequestParam(name="capacity",required = false) String capacity,
-											@RequestParam(name="creationTime",required = false) String creationTime){
+											@RequestParam(name="creationTime",required = false) String creationTime,
+											@RequestParam(name="ingredients",required = false) List<String> ingredients){
 		
-		return service.getFilteredRecipes(isVeg, capacity, creationTime);
+		return service.getFilteredRecipes(isVeg, capacity, creationTime,ingredients);
 	}
 	
 	

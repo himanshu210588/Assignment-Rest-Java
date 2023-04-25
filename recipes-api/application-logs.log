@@ -1347,3 +1347,15 @@
 01:11:39.493 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Received request for recipes
 01:11:39.493 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Retrieved and sent the recipes with requested filters
 01:11:39.500 [main] DEBUG c.a.r.r.r.r.RecipeDaoService - Updated recipe with recipeId: 1001
+01:18:09.081 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 35365 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:18:09.084 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:18:09.084 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:18:10.017 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.969 seconds (process running for 556.633)
+01:18:11.698 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Starting RecipesApiApplication using Java 17.0.6 with PID 35365 (/Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api/target/classes started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:18:11.698 [restartedMain] DEBUG c.a.r.r.r.RecipesApiApplication - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:18:11.698 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - No active profile set, falling back to 1 default profile: "default"
+01:18:12.550 [restartedMain] INFO  c.a.r.r.r.RecipesApiApplication - Started RecipesApiApplication in 0.868 seconds (process running for 559.166)
+01:21:48.302 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Starting RecipesApiApplicationTests using Java 17.0.6 with PID 35726 (started by Himanshu in /Users/Himanshu/Assignments/Assignment-Rest-Java/recipes-api)
+01:21:48.304 [main] DEBUG c.a.r.r.r.RecipesApiApplicationTests - Running with Spring Boot v3.1.0-M2, Spring v6.0.7
+01:21:48.305 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:21:52.563 [main] INFO  c.a.r.r.r.RecipesApiApplicationTests - Started RecipesApiApplicationTests in 4.492 seconds (process running for 5.541)

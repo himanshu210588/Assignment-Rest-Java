@@ -5,6 +5,10 @@ This project uses Java SpringBoot framework to build the api and JPA/Hibernate f
 
 Details :
 
+The swagger definition and open api yaml documentation is available below :
+http://localhost:8080/swagger-ui
+http://localhost:8080/v3/api-docs
+
 The REST api consists of following operations :
 
 GET(/recipes)
